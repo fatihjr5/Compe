@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&display=swap');
+.navbar {
+    margin: 1rem 0;
+    .spaced {
+        justify-content: space-between;
+        width: 100%;
+        .navbar-nav {
+            margin-left: 24rem;
+            align-items: center;
+            text-align: left;
+            .nav-item {
+                a {
+                    font-size: 15px;
+                    font-family: "Karla";
+                    font-weight: 400;
+                    color: black;
+                }
+                .btn-purple {
+                    background-color: #5254CF;
+                    border-radius: 0.6rem;
+                    width: 4.5rem;
+                    padding: 0.7rem 0;
+                    font-size: 15px;
+                    font-family: "Karla";
+                    text-align: center;
+                    font-weight: 500;
+                    color: #f8f8f8;
+                }
+            }
+        }
+    }
+}
+
+//header
+.header {
+    margin: 2rem 0;
+    .master-text {
+        h3 {
+            font-size: 30px;
+            font-family: "Karla";
+            font-weight: 500;
+            span {
+                color: #5254CF;
+            }
+        }
+        p {
+            font-size: 15px;
+            font-family: "Karla";
+            font-weight: 400;
+        }
+    }
+}
+
+//vr
+.vr {
+    padding: 1.5rem 1rem;
+    justify-content: center;
+    text-align: center;
+    .row {
+        .col {
+            h5 {
+                color: #5254CF;
+                font-size: 30px;
+                font-family: "Karla";
+                font-weight: 600;
+            }
+            p {
+                color: #8888;
+                font-size: 15px;
+                font-family: "Karla";
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+//Benefit
+.ob {
+    padding: 1.5rem 0;
+    .master-text2 {
+        h3 {
+            color: #5254CF;
+            font-size: 30px;
+            font-family: "Karla";
+            font-weight: 600;
+        }
+        p {
+            color: #8888;
+            font-size: 15px;
+            font-family: "Karla";
+            font-weight: 400;
+        }
+    }
+    .row {
+        align-items: center;
+        .ob-img {
+            width: 100%;
+        }
+        .ob-me {
+            display: flex;
+            justify-content: center;
+            .benefit {
+                padding: 0 0.75rem;
+                align-items: center;
+                text-align: center;
+                img {
+                    width: 4rem;
+                }
+                p {
+                    padding: 0.5rem 0;
+                    font-size: 15px;
+                    font-family: "Karla";
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+//testimoni
+.wts {
+    padding: 1.5rem 0;
+    .master-text3 {
+        h3 {
+            color: #5254CF;
+            font-size: 30px;
+            font-family: "Karla";
+            font-weight: 600;
+        }
+        p {
+            color: #8888;
+            font-size: 15px;
+            font-family: "Karla";
+            font-weight: 400;
+        }
+    }
+    .slider {
+        text-align: center;
+        margin: 0.5rem 0;
+        .slides {
+            .card {
+                border: none;
+                .card-body {
+                    .card-title {
+                        font-size: 30px;
+                        font-family: "Karla";
+                        font-weight: 600;
+                        color: #5254CF;
+                    }
+                    .card-text {
+                        font-size: 15px;
+                        font-family: "Karla";
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//join
+.jl {
+    padding: 1.5rem 0;
+    .jl-bg {
+        justify-content: space-evenly;
+        background-color: #5254CF;
+        border-radius: 1.75rem;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        img {
+            width: 3.25rem;
+        }
+        .jl-text {
+            transform: translateY(0.45rem);
+            h5 {
+                font-size: 30px;
+                font-weight: 500;
+                font-family: "Karla";
+                color: #f8f8f8;
+            }
+            p {
+                font-size: 15px;
+                margin-top: -0.5rem;
+                font-weight: 400;
+                font-family: "Karla";
+                color: #f8f8f8;
+            }
+        }
+        button {
+            border: 1px solid #f8f8f8;
+            width: 4rem;
+            border-radius: 0.5rem;
+            a {
+                text-decoration: none;
+                color: #f8f8f8;
+            }
+        }
+    }
+}
+
+//footer1
+.ft1 {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .ftr-1 {
+        display: flex;
+        justify-content: space-between;
+        .idt-img {
+            margin: 0 1rem;
+            img {
+                width: 5rem;
+            }
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                font-family: "Karla";
+                color: #8888;
+            }
+        }
+        .row {
+            .col {
+                padding: 0.25rem 1.5rem;
+                h5 {
+                    font-size: 20px;
+                    font-family: "Karla";
+                    font-weight: 500;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 15px;
+                    font-family: "Karla";
+                    font-weight: 400;
+                    color: #8888;
+                    &:hover {
+                        color: #5254CF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ft2 {
+    padding: 0.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    .cr {
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: "Karla";
+        }
+    }
+    .scm {
+        align-items: center;
+        display: flex;
+        p {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: "Karla";
+        }
+        a {
+            margin-top: -1rem;
+            padding: 0 0.5rem;
+            img {
+                width: 1.5rem;
+            }
+        }
+    }
+}
